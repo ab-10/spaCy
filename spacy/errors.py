@@ -257,8 +257,8 @@ class Errors(object):
     E049 = ("Can't find spaCy data directory: '{path}'. Check your "
             "installation and permissions, or use spacy.util.set_data_path "
             "to customise the location if necessary.")
-    E050 = ("Can't find model '{name}'. It doesn't seem to be a shortcut "
-            "link, a Python package or a valid path to a data directory.")
+    E050 = ("Can't find model '{name}'."
+            "Have you installed it? (python3 -m spacy download {name})")
     E051 = ("Cant' load '{name}'. If you're using a shortcut link, make sure "
             "it points to a valid package (not just a data directory).")
     E052 = ("Can't find model directory: {path}")
